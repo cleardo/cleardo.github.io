@@ -1,0 +1,312 @@
+﻿/** 
+  *
+  * linnil.cn 外部网站CSS文件
+  * 作者：林志宏
+  * 单位：cleardo工作室
+  */
+
+/* 基本样式
+================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFF;
+	font: 76% 'Lucida Grande',verdana,Helvetica,sans-serif;
+	color: #000;
+	text-align: center;
+	min-width: 760px;
+}
+
+div, p {
+	font: normal 13px Georgia, Palatino, "Palatino Linotype", serif;
+	word-spacing: 0.2em;
+	color: #000;
+}
+
+#wrapper {
+	background-color: #FFF;
+}
+
+/* 基本锚链接样式 */
+
+a:link, a:active {
+	color: #B30000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #123974;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #123974;
+}
+
+a img {
+	border-width: 0;
+	border-style: none;
+}
+
+img {
+	border: 0px none;
+}
+
+.clear {
+	clear: both;
+}
+
+/* 表现层
+=================================*/
+
+#wrapper {
+	width: 750px;
+	margin: 0 auto;
+	text-align: left;
+	background: url("../images/bg_repeat.png") repeat-y;
+}
+
+#header {
+	width: 750px;
+	height: 150px;
+	background: url("../images/header.jpg");
+}
+
+#mainNav {
+	width: 750px;
+	float: left;
+	list-style: none;
+	background: url("../images/bg_nav.jpg");
+}
+
+#mainNav li {
+	float: left;
+}
+
+#mainNav a {
+	font-size: 14px;
+	display: block;
+	padding: 0 20px;
+	line-height: 35px;
+	text-decoration: none;
+	color: #dacece;
+	font-weight: bold;
+}
+
+#mainNav .first a {
+	margin-left: 45px;
+	background: none;
+}
+
+#mainNav a:hover, #mainNav a:active {
+	background: url("../images/navhover3.gif") 80% 50%;
+	margin-top: 5px;
+	line-height: 25px;
+	color: #fff;
+}
+
+#mainNav a:link, #mainNav a:active, #mainNav a:visited {
+	border-style: none;
+}
+
+/* 对当前页面进行高亮显示 */
+
+body.home #mainNav a#home, 
+body.math #mainNav a#math, 
+body.itheory #mainNav a#itheory, 
+body.program #mainNav a#program,
+body.zjugo #mainNav a#zjugo, 
+body.qna #mainNav a#qna, 
+body.statistic #mainNav a#statistic,
+body.contact #mainNav a#contact {
+	margin-top: 5px;
+	line-height: 25px;
+	color: #fff;
+	text-decoration: none;
+	cursor: default;
+}
+
+#bg {
+	float: left;
+	margin-top: 0;
+	background: url("../images/bg.png") no-repeat;
+	font-size: 100%;
+}
+
+#primary {
+	padding-left: 30px;
+	padding-right: 20px;
+	float: left;
+	width: 480px;
+}
+
+#primary h1 {
+	margin: 18px 0 0;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	letter-spacing: -1px;
+	text-align: center; 
+}
+
+#primary h2 {
+	margin: 5px 0 10px;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #17181a;
+}
+
+#primary h5 {
+	margin: 0.9em 0 1.75em;
+	font: 12px Tahoma, Arial, sans-serif;
+	text-align: center;
+}
+
+#primary p {
+	text-indent: 25px;
+	text-align: justify;
+	line-height: 150%;
+	margin: 0;
+	padding: 5px 0;
+}
+
+#secondary {
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	width: 180px;
+	color: #acb5c5;
+}
+
+#secondary h1{
+	margin: 5px 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #fff;
+}
+
+#secondary p {
+	font: 13px;
+	color: #FFCBE7;
+	text-align: justify;
+}
+
+#bless {
+	margin: 20px auto 5px;
+	width: 180px;
+}
+
+#bless img {
+	margin-top: 5px;
+}
+
+#secondary ul {
+	list-style: none;
+}
+
+#linkToCleardo {
+	margin-top: 25px;
+}
+	
+#linkToCleardo a:link, #linkToCleardo a:visited {
+	color: #acd8ec
+}
+
+#linkToCleardo a:hover, #linkToCleardo a:active {
+	border-bottom: 1px solid #123794;
+	color: #123974;
+}
+
+.title {
+	margin-top: 25px;
+}
+
+#archive-title {
+	margin-left: 25px;
+}
+
+.picC {
+	padding: 4px;
+	border: 1px dashed #000;
+	background: #FFF;
+}
+
+.picLoff { 
+	float: left;
+	margin-right: 10px;
+	padding: 2px;
+	border: 1px dashed #999;
+	background: #FFF;
+}
+.subnav li {
+	background: url(../images/arrow.gif) no-repeat left center;
+	background-color: #000;
+	margin: 3px auto;
+	padding: 3px 0 3px 22px;
+	color: #fff;
+}
+
+.subnav li a:link, .subnav li a:visited {
+	color: #fff;
+}
+
+.subnav li a:hover, .subnav li a:active {
+	border-bottom: none;
+}
+
+.snap {
+	text-align: center;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.vdiv {
+	margin: 0 2px 0 5px;
+	vertical-align: text-top;
+}
+
+.date {
+   margin-left: 6em;
+   float: right;
+   font-size: small;
+   font-family: sans-serif;
+}
+
+#resume h3 {
+	border-bottom: 1px solid #666666;
+	padding-left: 3px;
+	padding-bottom: 5px;
+}
+
+#resume ul {
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#resume ul li {
+	margin-top: 5px;
+}
+
+#resume ul ol {
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	padding-top: 5px;
+	background: url("../images/footerShadow.gif");
+	text-align: center;
+	clear: both;
+}
+
+#footer p {
+	height: 23px;
+	line-height: 23px;
+}
