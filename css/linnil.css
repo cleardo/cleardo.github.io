@@ -277,23 +277,23 @@ body.contact #mainNav a#contact {
    font-family: sans-serif;
 }
 
-#resume h3 {
+.resume h3 {
 	border-bottom: 1px solid #666666;
 	padding-left: 3px;
 	padding-bottom: 5px;
 }
 
-#resume ul {
+.resume ul {
 	margin-left: 20px;
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
 
-#resume ul li {
+.resume ul li {
 	margin-top: 5px;
 }
 
-#resume ul ol {
+.resume ul ol {
 	margin-left: 20px;
 	margin-top: 5px;
 	margin-bottom: 10px;
